@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+     <!-------------------------------------- Nav Bar----------------------------------------- -->
+     <nav class="navbar navbar-expand-sm custom-navbarcolor stickymenu navbar-light">
+      <div class="container-fluid position-sticky">
+          <a class="navbar-brand" href="#">CritterCare<img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/clinic.png" style="width: 65px;height: 65px;" alt=""> </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+              aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarID">
+              <div class="navbar-nav">
+                  <a class="nav-link" href="Index.html">Home <img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/001-animal.png"style="width: 50px;height: 50px; alt="> </a>
+                  <a class="nav-link active" aria-current="page" href="About.html">About Us <img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/002-veterinarian.png"style="width: 50px;height: 50px; alt="> </a>
+                  <div class="dropdown">
+                      <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Gallery <img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/003-photo.png"style="width: 50px;height: 50px; alt=">
+                      <span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                        <li><a class="nav-link" href="2019.html">2019</a></li>
+                        <li><a class="nav-link" href="#">2018</a></li>
+                        <li><a class="nav-link" href="#">2017</a></li>
+                      </ul>
+                  </div> 
+              </div>
+          </div>
+      </div>
+  </nav>
+
+    <!-- -----------------------------------------------cards------------------------------------------ -->
+    <div class="container">
+        <div class="row mx-auto">
+          <div class="col">
+            <div class="card">
+              <img src="../Randby-TrondArne-Bootstrap-Exercice/Images/dogsmile.jpg" class="card-img-top" style="filter:opacity(40%);" alt="dog smiling at camera">
+              <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                <h1 class="text-black display-1">About Us</h1>
+              </div>
+            </div>
+          </div>
+        <div class="row mx-auto pt-4"></div>
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 450px;">
+              <div class="card-header bg-card-header">Who are we?</div>
+              <img class="card-img-top" src="../Randby-TrondArne-Bootstrap-Exercice/Images/DogTreatment.jpg" alt="Card image">
+              <div class="card-body">
+                At CritterCare, we are dedicated to providing the highest level of veterinary care to our furry patients. Since our opening in 2017, our mission has been to create a welcoming environment where pets and their owners feel comfortable and confident in the care they receive. Led by our experienced veterinarians, Dr. Sarah and Dr. Michael, our team is passionate about animal health and welfare.
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 450px;">
+              <div class="card-header bg-card-header">Services</div>
+              <img class="card-img-top" src="../Randby-TrondArne-Bootstrap-Exercice/Images/dogcheckup.jpg" alt="Card image">
+              <div class="card-body">
+                Our clinic offers a comprehensive range of services, including routine check-ups, surgical procedures, and emergency care. We pride ourselves on our state-of-the-art facilities and equipment, which enable us to provide advanced treatments to our patients. Our team takes the time to get to know each pet and their owner, creating a personal connection that makes visits to our clinic less stressful for everyone involved.
+              </div>
+            </div>
+          </div>
+          
+          <div class="col d-flex justify-content-center pt-4">
+            <div class="card" style="width: 450px;">
+              <div class="card-header bg-card-header">Our Facilities</div>
+              <img class="card-img-top" src="../Randby-TrondArne-Bootstrap-Exercice/Images/cliniccustomer.jpg" alt="Card image">
+              <div class="card-body">
+                <p>At CritterCare, we are committed to providing a warm, welcoming environment where pets and their owners feel comfortable and at ease. Our state-of-the-art facility is designed with your pet's comfort and safety in mind.
+                Our clinic features a modern reception area where you will be greeted by our friendly and knowledgeable staff.</p> <p> Our exam rooms are equipped with the latest technology to provide accurate and efficient diagnoses, and our surgical suite is equipped with advanced monitoring and anesthesia equipment to ensure your pet's safety during procedures.
+                We also offer on-site radiology and laboratory services, allowing us to quickly and accurately diagnose a wide range of conditions. And for pets who require hospitalization or observation, we offer comfortable, climate-controlled kennels and a dedicated recovery area.
+                </p><p> We understand that visits to the vet can be stressful for both pets and their owners, which is why we've designed our facility to be as calming and comfortable as possible. We look forward to welcoming you and your furry family members to our clinic.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center pt-4">
+                <div class="card" style="width: 450px;">
+                    <div class="card-header bg-card-header">Community</div>
+                    <img class="card-img-top" src="../Randby-TrondArne-Bootstrap-Exercice/Images/community.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p>At CritterCare, we believe in giving back to the community that has supported us over the years. One way we do this is by regularly participating in local events and charitable organizations.
+                        For example, we sponsor a local animal rescue organization and often provide free or discounted care to pets in need.</p> <p>We also participate in local pet adoption events, providing information on responsible pet ownership and offering discounted initial exams to new pet owners.
+                        In addition, we work with local schools and community organizations to promote animal health and welfare. Our veterinarians have given presentations to school groups on topics such as pet nutrition and preventive care, and we have partnered with local animal shelters to provide educational programs on responsible pet ownership.</p> <p>
+                        We also support other charitable causes, such as animal-related fundraisers and food drives for local food banks. Our goal is to be an active and engaged member of the community and to make a positive impact on the lives of pets and their owners.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

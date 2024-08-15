@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uI1PVWtQXZNtxsVO2DEXOSSnWbY7QWruQdZZIZonWfYur7HV5E1gb6K21Xat7i35qppbVCW922wBrMTMxtRUaw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Trond Arne\\Documents\\GitHub\\Randby-Trond-Arne.-School-Work\\Randby-TrondArne-AspDotnet\\StudentExerciseMVC_API\\StudentExerciseMVC_API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Trond Arne\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

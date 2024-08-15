@@ -1,0 +1,104 @@
+body {
+    color: rgb(245, 245, 245);
+    margin: 0;
+    /* background-color: #9036EFff; */
+    background-image: url(../HTML-CSS-Exercice/Images/pexels-kévin-dorg-2881262.jpg);
+    background-attachment: fixed;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+body, html { min-height: 100%;}
+.Content-Wrap{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 40px;
+}
+h1, h2 {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+h3 {
+    font-size: medium;
+    margin: 0;
+    color: #B8381Cff;
+}
+.column1, .column2, .column3 {background-color: rgba(36, 33, 36,0.92);
+padding: 5px 10px;
+margin: 0;}
+.IMG-container {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+.Img-column1, .Img-column2, .Img-column3 {
+    padding-top: 20px;
+}
+/************************  Top 3 List  *********************** */
+.top3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol {
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  background-color: #1F4E40ff;
+  border-color: #1F4E40ff;
+  border-radius: 5px;
+  }
+  
+  #first-item {
+    position: relative;
+  }
+  
+  #first-item::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 95%;
+    height: 80%;
+    background-color: rgb(0, 0, 0);
+    transition: opacity 0.3s ease;
+    opacity: 1;
+    border-radius: 5px;
+  }
+  
+  #first-item:hover::before {
+    opacity: 0;
+  }
+  
+  li {
+    padding: 5px;
+    background-color: #1F4E40ff;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+footer {
+    position:fixed;
+    bottom: 0;
+    right: 10px;
+}
+/************************  Responsive  *********************** */
+@media screen and (min-width:800px){
+  .Grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+}

@@ -1,0 +1,172 @@
+<!-- 241, 108, 122   --Bright Pink -->
+<!-- 215, 224, 87 --Pear -->
+<!-- 138, 198, 221 --Sky Blue -->
+<!-- 104, 125, 170 --Glaucous -->
+<!-- 0, 33, 71 --Oxford Blue -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Exercise</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <!-------------------------------------- Nav Bar----------------------------------------- -->
+      <nav class="navbar navbar-expand-sm custom-navbarcolor stickymenu navbar-light">
+          <div class="container-fluid position-sticky">
+              <a class="navbar-brand" href="#">CritterCare<img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/clinic.png" style="width: 65px;height: 65px;" alt=""> </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                  aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarID">
+                  <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="Index.html">Home <img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/001-animal.png"style="width: 50px;height: 50px; alt="> </a>
+                      <a class="nav-link" href="About.html">About Us <img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/002-veterinarian.png"style="width: 50px;height: 50px; alt="> </a>
+                      <div class="dropdown">
+                          <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Gallery <img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/003-photo.png"style="width: 50px;height: 50px; alt=">
+                          <span class="caret"></span></button>
+                          <ul class="dropdown-menu">
+                            <li><a class="nav-link" href="2019.html">2019</a></li>
+                            <li><a class="nav-link" href="#">2018</a></li>
+                            <li><a class="nav-link" href="#">2017</a></li>
+                          </ul>
+                      </div> 
+                  </div>
+              </div>
+          </div>
+      </nav>
+      <!----------------------------------------------Carousel ----------------------------->
+  <div class="container background full-bleed">
+    <div class="row">
+      <div class="col">
+        <!----------------------------------------- C-Indicators ------------------------------------------------------------->
+        <div id="slider1" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#slider1" data-slide-to="0" class="active"></li>
+            <li data-target="#slider1" data-slide-to="1"></li>
+            <li data-target="#slider1" data-slide-to="2"></li>
+          </ol>
+          <!-- -------------------------------------C-Slide Wrapper ------------------------------------------------------------------------>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../Randby-TrondArne-Bootstrap-Exercice/Images/doghold.jpg" class="d-block w-100 mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="../Randby-TrondArne-Bootstrap-Exercice/Images/catfloor.jpg" class="d-block w-100 mx-auto" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="../Randby-TrondArne-Bootstrap-Exercice/Images/Rabbitglasses.jpg" class="d-block w-100 mx-auto" alt="">
+              </div>
+          </div>
+          <!-- ------------------------------------C-Left/Right Controls ------------------------------------------------------------------>
+          <a class="carousel-control-prev" href="#slider1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#slider1" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- ------------------------------------Welcome! ------------------------------------------------------------------>
+      <div class="row  px-4 background-para full-bleed2 justify-content-center">
+          <div class="col-lg-8 pt-5 pb-5 text-center">
+            <div class="h1">Welcome!</div>  
+            <p class="lh-base"> Welcome to CritterCare animal clinic! We are thrilled to provide the highest quality care for your furry friends. 
+            Our team of skilled veterinarians and passionate staff are dedicated to ensuring that your pets receive the personalized attention and medical treatment they deserve. 
+            Whether your pet requires a routine check-up, emergency care, or specialized treatment, we are here to provide comprehensive and compassionate care. 
+            At our animal clinic, we understand that pets are family members, and we strive to create a warm and welcoming environment where both you and your furry companions feel comfortable and cared for. 
+            Thank you for choosing our clinic, and we look forward to meeting you and your beloved pets!
+            </p>
+          </div>
+      </div>
+      <!-- -------------------------------------------searchbar-------------------------------------------------------- -->
+      <div class="row height d-flex justify-content-center align-items-center py-5">
+        <div class="col-8">
+          <div class="search">
+            <i class="fa fa-search"></i>
+            <input type="text" class="form-control" placeholder="Find Clinic">
+            <button class="btn btn-clr"><img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/research.png" style="width: 32px;" alt=""> Search</button>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------Buttons----------------------------------------------------- -->
+      <div class="row px-4 pb-5 border-bottom">
+        <div class="col d-flex justify-content-center btn-circle">
+            <button type="button" class="btn rounded-pill btn-clr"><img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/002-spay.png" class="pr-1" alt="">Treatment and Services</button>
+        </div>
+        <div class="col d-flex justify-content-center ">
+          <button type="button" class="btn rounded-pill btn-clr"><img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/004-checkup.png" class="pr-1" alt=""> Refferals</button>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <button type="button" class="btn rounded-pill btn-clr"><img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/001-consultation.png" class="pr-1" alt=""> Before Your Visit</button>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <button type="button" class="btn rounded-pill btn-clr"><img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/003-ambulance.png" class="pr-1" alt=""> Emergency</button>
+        </div>
+      </div>
+      <!-- ----------------------------Pet Age----------------------------------------- -->
+      <div class="card mx-auto my-5 d-none d-md-block" style="width: 60rem;">
+        <div class="row flex-nowrap gx-0">
+          <div class="col-4 bg-age px-0">
+            <img class="rounded" src="../Randby-TrondArne-Bootstrap-Exercice/Images/CatBW.jpg" style=" width: 400px; transform: scaleX(-1);" alt="Half the face of a cat">
+          </div>
+          <div class="card-body py-5 pl-5 pr-0 bg-age rounded">
+            <div class="col-6 mx-auto">
+              <div class="card-title h2"> Treat your pets Age seriously</div>
+              <p class="card-text lead">As our furry friends age, their health change just as much as ours do. 
+                Dogs and cats are considered "senior" when they reach seven years of age, and from this point on, 
+                they require extra attention and care to ensure their well-being. Senior pets are more susceptible to age-related illnesses, 
+                such as arthritis, diabetes, and kidney disease, and may require different diets, exercise routines, and even medication to manage their health effectively.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------Blog----------------------------------------------- -->
+      <div class="row blog-bg full-bleed-blog mx-auto py-3"> <div class="h2 px-4"> Recent blog entries:</div>
+      <div class="row px-4 blog-bg full-bleed-blog">
+        <div class="col pt-3 text-responsive"> 
+          <a href="#"><img src="../Randby-TrondArne-Bootstrap-Exercice/Images/catfeed.jpg" class="rounded" style="width: 350px;" alt="cat being fed">
+          <div class="h3 lh-sm">Feed your pet the correct food.</div></a>
+          <p>
+          One of the most important aspects of your pets well-being is their nutrition. 
+          Feeding your pet a healthy and balanced diet is essential for their overall health, but with so many options available, 
+          it can be overwhelming to choose the right food for your pet. explore the basics of pet nutrition, the different types of pet food available,
+           and how to choose the best food for your pet's individual needs. 
+          </p>
+        </div>
+        <div class="col pt-3 text-responsive"> 
+          <a href="#"><img src="../Randby-TrondArne-Bootstrap-Exercice/Images/dogwash.jpg" class="rounded" style="width: 350px;" alt="small dog in the bath">
+          <div class="h3 lh-sm">8 tips for washing your dog.</div></a>
+          <p>
+            Dogs are known for their love of the great outdoors, but it's important to keep them clean and well-groomed to maintain their overall health and happiness. 
+            While some dogs may enjoy a good bath, others may become anxious or resist the experience. 
+            As a dog owner, it's important to know how to correctly wash your dog to make the process as stress-free as possible.
+          </p>
+        </div>
+        <div class="col pt-3 text-responsive"> 
+          <a href="#"><img src="../Randby-TrondArne-Bootstrap-Exercice/Images/Tick.jpg" class="rounded" style="width: 350px;" alt="A tick on a leaf">
+          <div class="h3 lh-sm">Tick season is here!</div></a>
+          <p>
+            With the arrival of spring, tick season is once again upon us. 
+            These tiny blood-sucking parasites can cause serious health problems for both humans and pets. 
+            While there are several ways to prevent tick bites, such as using tick repellents and avoiding areas with high tick activity, 
+            one of the most effective measures is getting your pet vaccinated.
+          </p>
+        </div>
+      </div>
+  </div> 
+</body>
+</html>

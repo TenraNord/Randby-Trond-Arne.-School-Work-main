@@ -1,0 +1,49 @@
+/* ----- page ------*/
+.siteheader {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.maincontent {
+    display: flex;
+    justify-content: center;
+}
+.pic_image {
+    height: 500px;
+    width: auto;
+}
+/* ---- picture ----*/
+figure {
+    display: block;
+    font-weight: bold;
+}
+figcaption {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+/*   dropdownList */
+.drpDwnList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: 42px;
+}
+.chooseColor {
+    margin-left: 10px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;
+}
+
+/*  button  */
+.btn {
+    display: flex;
+    justify-content: center;
+}
+.btnChngInStore{
+    background-color: darkseagreen;
+    width:20%;
+}

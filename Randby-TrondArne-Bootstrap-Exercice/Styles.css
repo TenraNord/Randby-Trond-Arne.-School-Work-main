@@ -1,0 +1,86 @@
+.stickymenu {
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+    left: 0;
+    right: 0;
+}
+.carousel-inner img {
+    height:700px ;
+    object-fit: cover;
+}
+body {
+    color: rgb(32, 32, 32);
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container {
+   padding-top: 91px;
+}
+.custom-navbarcolor {
+    background-color: rgba(215, 224, 87,0.90);
+}
+/* .background {
+    background-color: rgb(138, 198, 221)
+}
+.full-bleed {
+    box-shadow: 0 0 0 100vmax rgb(138, 198, 221);
+    clip-path: inset(0 -100vmax) ;
+} */
+.background-para {
+    background-color: rgb(215, 224, 87)
+}
+.full-bleed2 {
+    box-shadow: 0 0 0 100vmax rgb(215, 224, 87);
+    clip-path: inset(0 -100vmax) ;
+}
+/* -------------------Searchbar------------------------------ */
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);   
+}
+.search input{
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+   .search input:focus{
+    box-shadow: none;
+    border: 2px solid blue;
+}
+   .search .fa-search{
+
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+   .search button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+}
+   /* --------------------------------------------------------------- */
+   .blog-bg {
+    background-color: rgb(138, 198, 221);
+   }
+   .full-bleed-blog {
+    box-shadow: 0 0 0 100vmax rgb(138, 198, 221);
+    clip-path: inset(0 -100vmax) ;
+}
+.bg-age {
+    background-color: rgb(104, 125, 170);
+}
+.btn-clr {
+    background-color: rgb(138, 198, 221);
+    color: black;
+}
+.bg-card-header {
+    background-color: rgb(138, 198, 221);
+}
+a {
+    color: black;
+    text-decoration: none;
+}

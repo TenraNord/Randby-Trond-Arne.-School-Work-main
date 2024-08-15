@@ -1,0 +1,8 @@
+C:\Users\Trond Arne\Documents\GitHub\Randby-Trond-Arne.-School-Work\Randby-TrondArne-C#\ExercisesC#\ExercisesC#\bin\Debug\ExercisesC#.exe.config
+C:\Users\Trond Arne\Documents\GitHub\Randby-Trond-Arne.-School-Work\Randby-TrondArne-C#\ExercisesC#\ExercisesC#\bin\Debug\ExercisesC#.exe
+C:\Users\Trond Arne\Documents\GitHub\Randby-Trond-Arne.-School-Work\Randby-TrondArne-C#\ExercisesC#\ExercisesC#\bin\Debug\ExercisesC#.pdb
+C:\Users\Trond Arne\Documents\GitHub\Randby-Trond-Arne.-School-Work\Randby-TrondArne-C#\ExercisesC#\ExercisesC#\obj\Debug\Task4.csproj.AssemblyReference.cache
+C:\Users\Trond Arne\Documents\GitHub\Randby-Trond-Arne.-School-Work\Randby-TrondArne-C#\ExercisesC#\ExercisesC#\obj\Debug\Task4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Trond Arne\Documents\GitHub\Randby-Trond-Arne.-School-Work\Randby-TrondArne-C#\ExercisesC#\ExercisesC#\obj\Debug\Task4.csproj.CoreCompileInputs.cache
+C:\Users\Trond Arne\Documents\GitHub\Randby-Trond-Arne.-School-Work\Randby-TrondArne-C#\ExercisesC#\ExercisesC#\obj\Debug\ExercisesC#.exe
+C:\Users\Trond Arne\Documents\GitHub\Randby-Trond-Arne.-School-Work\Randby-TrondArne-C#\ExercisesC#\ExercisesC#\obj\Debug\ExercisesC#.pdb

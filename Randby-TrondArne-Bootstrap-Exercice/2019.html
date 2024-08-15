@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Exercise</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles.css">
+  </head>
+</head>
+<body>
+<!-------------------------------------- Nav Bar----------------------------------------- --> 
+<nav class="navbar navbar-expand-sm custom-navbarcolor stickymenu navbar-light">
+    <div class="container-fluid position-sticky">
+        <a class="navbar-brand" href="#">CritterCare<img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/clinic.png" style="width: 65px;height: 65px;" alt=""> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+            aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarID">
+            <div class="navbar-nav">
+                <a class="nav-link" href="Index.html">Home <img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/001-animal.png"style="width: 50px;height: 50px; alt="> </a>
+                <a class="nav-link" href="About.html">About Us <img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/002-veterinarian.png"style="width: 50px;height: 50px; alt="> </a>
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">Gallery <img src="../Randby-TrondArne-Bootstrap-Exercice/Icons/png/003-photo.png"style="width: 50px;height: 50px; alt=">
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a class="nav-link active" aria-current="page" href="2019.html">2019</a></li>
+                        <li><a class="nav-link" href="#">2018</a></li>
+                        <li><a class="nav-link" href="#">2017</a></li>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- ------------------------------------gallery----------------------------------------------------------- -->
+<div class="container">
+    <div class="row pt-5">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/Dogcheckup2.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Dogcheckup"
+            />
+        
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/bunnies.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="bunnies"
+            />
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/Catsurgery.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="Cat getting surgery"
+            />
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/dogforest.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="dog for a walk in the woods"
+            />
+            </div>
+        
+            <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/kittens.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="kittens standing side by side"
+            />
+        
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/babypet.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="newborn puppy"
+            />
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/VetScreen.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="veterinarian looking at a screen"
+            />
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/catsleepblanket.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="cat sleeping on a blanket"
+            />
+            </div>
+        
+            <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/dognurse.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="dog dressed up as a nurse"
+            />
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/CatTreatment.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="cat getting leg bandaged"
+            />
+        
+            <img
+                src="../Randby-TrondArne-Bootstrap-Exercice/Images/catsuit.jpg"
+                class="w-100 shadow-1-strong rounded mb-4"
+                alt="cat getting an injection"
+            />
+        
+        </div>
+    </div>
+</div>
+</body>
+</html>
