@@ -63,12 +63,19 @@
           id="backend"
           value="backend"
           v-model="areas.val"
+          @blur="clearValidity('areas')"
         />
         <label for="backend">Backend Development</label>
       </div>
 
       <div>
-        <input type="checkbox" id="career" value="career" v-model="areas.val" />
+        <input
+          type="checkbox"
+          id="career"
+          value="career"
+          v-model="areas.val"
+          @blur="clearValidity('areas')"
+        />
         <label for="career">Career Advisory</label>
       </div>
       <p v-if="!areas.isValid">Atleast one expertise must be selected.</p>
